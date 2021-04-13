@@ -37,7 +37,7 @@ pipeline:
       branch: [ master ]
       event: [ push ]
 
-  NOTIFY PULL REQUEST TO TEAMS:
+  NOTIFY PULL REQUEST TO TEAM:
     group: notification
     image: globx/drone-plugin-teams:linux-amd64-build-1
     secrets: [ teams_webhook ]
